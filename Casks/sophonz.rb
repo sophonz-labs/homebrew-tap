@@ -1,10 +1,10 @@
 cask "sophonz" do
-  version "0.1.41"
-  sha256 "78f04c8f053c7372b448eb993b4c96eb48f90e04f91b23fed977693099a93bd5"
+  version "0.1.43"
+  sha256 "be44dd78a4c6589cd1a57c92f742719c3011f6afc29bcf1fffca893de6101e22"
 
   url "https://dl.sophonz.io/apps/desktop/v#{version}/sophonz-terminal-#{version}-darwin-arm64.dmg"
   name "Sophonz"
-  name "sophonz terminal"
+  name "sophonz"
   desc "Terminal app for tmux sessions on this and your other machines"
   homepage "https://www.sophonz.io/"
 
