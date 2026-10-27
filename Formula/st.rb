@@ -1,24 +1,24 @@
 class St < Formula
   desc "Share the terminal session you are already running"
   homepage "https://sophonz.io"
-  version "0.3.107"
+  version "0.3.108"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://dl.sophonz.io/v0.3.107/st-darwin-arm64"
-      sha256 "1140d6c09bd88d25bf7cfc8b92a4fdb894de515874157918130205d9986e4776"
+      url "https://dl.sophonz.io/v0.3.108/st-darwin-arm64"
+      sha256 "25d7dbce5b8d39ecbbfed730158e07956e150a050e003e8da72b4cf255f208a6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://dl.sophonz.io/v0.3.107/st-linux-x64"
-      sha256 "ecf0ea437b924d00d4b7d6a5cb6bbdab1c1203f6d76886a2214c877525c2c73f"
+      url "https://dl.sophonz.io/v0.3.108/st-linux-x64"
+      sha256 "a96ea48f78221aca7defe8a5cf492f449284e482e0aed3dc5e9377c0e22338c9"
     end
     on_arm do
-      url "https://dl.sophonz.io/v0.3.107/st-linux-arm64"
-      sha256 "884ca88f7943a914fbebb152a2e7f04b00080c7950e3d1cc50515cfa756deb2b"
+      url "https://dl.sophonz.io/v0.3.108/st-linux-arm64"
+      sha256 "f5a9483ee02f6e5c9127611f3b556adf5d4e3fde34fa49101da4c0af807b450d"
     end
   end
 
