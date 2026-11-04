@@ -3,9 +3,13 @@
 Homebrew formulae and casks for sophonz tools.
 
 ```bash
-brew install sophonz-labs/tap/st        # the st CLI
-brew install sophonz-labs/tap/sophonz   # the desktop app (Sophonz.app)
+brew trust --tap sophonz-labs/tap
+brew install sophonz-labs/tap/st                # the st CLI
+brew install --cask sophonz-labs/tap/sophonz    # the desktop app (Sophonz.app)
 ```
+
+Homebrew asks before it loads a tap that is not its own, so `brew trust` comes
+first, once.
 
 `st` is [sophonz-tunnel](https://github.com/sophonz-labs/sophonz-tunnel) — the
 terminal session you are already running, reachable from a phone. The formula
