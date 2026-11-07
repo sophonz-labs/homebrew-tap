@@ -1,6 +1,6 @@
 cask "sophonz" do
-  version "0.2.0"
-  sha256 "3933edce279f46fb36c0d18b471af0ac69f3d2a1621fd9825538308d4fc9f88c"
+  version "0.2.1"
+  sha256 "892cc5bc51d7efcab0f413cc1a8343831bf6687ab10d90e148dd3907edf9d081"
 
   url "https://dl.sophonz.io/apps/desktop/v#{version}/sophonz-terminal-#{version}-darwin-arm64.dmg"
   name "Sophonz"
